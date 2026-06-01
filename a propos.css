@@ -1,0 +1,167 @@
+body{
+    background:#f4f6f5;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.main-title{
+    font-weight:800;
+}
+
+.main-title span{
+    color:#0b7d2d;
+}
+
+.subtitle{
+    color:#666;
+}
+
+.title-line{
+    width:120px;
+    height:4px;
+    background:#ff9800;
+    margin:auto;
+    border-radius:50px;
+}
+
+.form-wrapper{
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 10px 35px rgba(0,0,0,.15);
+    background:#fff;
+}
+
+/* LEFT PANEL */
+
+.left-panel{
+    background:linear-gradient(
+    180deg,
+    #006b1f,
+    #009933);
+    color:white;
+    position:relative;
+}
+
+.content{
+    padding:35px;
+}
+
+.content h3{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.content span{
+    color:#ffd54f;
+}
+
+.feature{
+    display:flex;
+    gap:15px;
+    margin:25px 0;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:rgba(255,255,255,.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.student-img{
+    width:100%;
+    margin-top:20px;
+}
+
+/* FORM */
+
+.form-card{
+    padding:35px;
+}
+
+.step-title{
+    background:#e9f7ed;
+    color:#0b7d2d;
+    font-weight:700;
+    padding:10px 15px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.step-title i{
+    margin-right:10px;
+}
+
+.form-control,
+.form-select{
+    border-radius:10px;
+}
+
+.level-card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:15px;
+    cursor:pointer;
+}
+
+.level-card:hover{
+    border-color:#0b7d2d;
+}
+
+.btn-submit{
+    width:100%;
+    border:none;
+    background:#0b7d2d;
+    color:white;
+    padding:14px;
+    border-radius:50px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.btn-submit:hover{
+    background:#086121;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#0b5f1e;
+    color:white;
+    padding-top:40px;
+}
+
+.footer h5{
+    margin-bottom:15px;
+}
+
+.footer ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer li{
+    margin-bottom:8px;
+}
+
+.socials a{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:white;
+    color:#0b5f1e;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    margin-right:5px;
+}
+
+.footer-bottom{
+    background:#d70000;
+    text-align:center;
+    padding:12px;
+    margin-top:25px;
+}

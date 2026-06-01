@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:linear-gradient(
+        120deg,
+        #e0eb7c,
+        #b2f0a6,
+        rgb(252,142,108)
+    );
+}
+
+/* NAVBAR */
+
+.navbar-custom{
+    background:rgb(179,247,158);
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    border-radius:10px;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight:bold;
+}
+
+.btn-login{
+    background:#0702f7;
+    color:white;
+    margin-left:15px;
+}
+
+/* CAROUSEL */
+
+.carousel-img{
+    height:650px;
+    object-fit:cover;
+}
+
+.carousel-caption{
+    background:rgba(0,0,0,.5);
+    border-radius:15px;
+    padding:20px;
+}
+
+.carousel-caption h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+/* PRESENTATION */
+
+.title-gold{
+    color:gold;
+}
+
+.card{
+    border:none;
+}
+
+/* MATIERES */
+
+.matieres{
+    padding:80px 0;
+    text-align:center;
+}
+
+.matiere-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.matiere-card:hover{
+    transform:translateY(-10px);
+}
+
+.matiere-card i{
+    font-size:40px;
+    color:#17f802;
+    margin-bottom:15px;
+}
+
+/* MANUELS */
+
+.manuel-card{
+    transition:.3s;
+}
+
+.manuel-card:hover{
+    transform:translateY(-10px);
+}
+
+.manuel-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+/* FOOTER */
+
+footer{
+    background:#222;
+    color:white;
+    padding:50px 0;
+    margin-top:50px;
+}
+
+footer ul{
+    list-style:none;
+    padding:0;
+}
+
+footer li{
+    margin-bottom:10px;
+}
+
+footer h4{
+    color:#17f802;
+    margin-bottom:15px;
+}
+
+footer hr{
+    margin:30px 0;
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(120deg,#e0eb7c,#b2f0a6,rgb(252, 142, 108));
+}
+
+.login-box {
+    
+    background: linear-gradient(135deg, #50e657, #e0f664, #f36947);
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.login-boxx{
+    background-color:white;
+    width: 300px;
+    height: 360px;
+    padding: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.logo span {
+    color: red;
+}
+
+h2{
+    color: #191970;
+}
+
+p{
+    font-size: 15px;
+}
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #777;
+    font-size: 16px;
+}
+
+.input-group input {
+    width: 250px;
+    padding: 10px 10px 10px 38px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #1e88e5;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: greenyellow;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.links a {
+    color: blue;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
